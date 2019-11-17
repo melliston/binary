@@ -64,6 +64,3 @@ add = (a, b, c = 0, total = []) => {
   }
   return add(a, b, r.carry, total);
 }
-
-const result = add([0,0,0,0,0,1,1,1],[0,0,0,0,0,0,1,0]);
-console.log('Result', result);
