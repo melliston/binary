@@ -5,3 +5,15 @@ After reading an excellent book by Charles Petzold, Code: The Hidden Language of
 
 I aim to add some other functions such as subtract in the future.
 
+# Usage
+
+```javascript
+const result = add([0,0,0,0,0,1,1,1],[0,0,0,0,0,0,1,0]);
+console.log('Result:', result);
+```
+
+The above will then output:
+
+```javascript
+Result: [ 0, 0, 0, 0, 1, 0, 0, 1 ]
+```
